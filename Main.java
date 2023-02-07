@@ -6,6 +6,9 @@ public class Main {
 		System.out.println(greeter.greet());
 		greeter.setGerman();
 		System.out.println(greeter.greet());
+		greeter.setChinese();
+		System.out.println(greeter.greet());
+		greeter.setPolish();
+		System.out.println(greeter.greet());
 	}
-
 }
